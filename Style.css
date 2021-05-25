@@ -1,0 +1,205 @@
+* {
+      margin: 0;
+      padding: 0;
+}
+
+/*root color */
+
+body {
+      font-family: font-family: 'Noto Serif', serif;
+      ;
+}
+
+:root {
+      --primery: rgb(237, 252, 247);
+      --secondary: rgb(255, 131, 69);
+      --clear: rgb(72, 183, 116);
+}
+
+.main-nav,
+.hero {
+      background-color: var(--primery)
+}
+
+.container {
+      margin: 0 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+/*  Logo css */
+.brandlogo h1 {
+      color: var(--secondary);
+      margin-top: 35px;
+}
+
+.brandlogo h1 span {
+      color: var(--clear);
+}
+
+
+/*==== Navigation CSS ====*/
+.navlink {
+      margin-top: 35px;
+      font-weight: 300px;
+      font-size: 20px;
+}
+
+.navlink a {
+      text-decoration: none;
+      padding-right: 2rem;
+      font-weight: 300px;
+      text-align: center;
+      margin: auto;
+      color: black;
+}
+
+a:hover {
+      border-bottom: 1px solid var(--clear);
+      color: var(--secondary)
+}
+
+
+/*=== Hero section ====*/
+.hero {
+
+      margin-top: 8%;
+      background-image: linear-gradient(to top, #fff, rgb(237, 252, 247))
+}
+
+.hero-left {
+      margin-top: 30px;
+      margin-left: 20px;
+      padding: 10px;
+      height: 400px;
+      justify-content: center;
+}
+
+h1 .hpayment {
+      color: var(--clear)
+}
+
+h1 .solution {
+      color: var(--secondary);
+}
+
+.intro {
+      margin-top: 1rem;
+      color: #9a9e9ec2;
+}
+
+.btn {
+      margin-top: 1rem;
+
+}
+
+.get-Started {
+      padding: 15px;
+      border-radius: 20px;
+      border: none;
+      background-color: var(--clear);
+      color: #fff;
+      margin-right: 1rem;
+
+}
+
+.get-Started:hover {
+      padding: 12px;
+      border-radius: 20px;
+      color: var(--secondary);
+      background-color: #fff;
+      border: 1.5px solid var(--clear)
+}
+
+.demo {
+      padding: 12px;
+      border-radius: 20px;
+      color: var(--secondary);
+      background-color: #fff;
+      border: 1.5px solid var(--clear);
+
+}
+
+.demo:hover {
+      padding: 15px;
+      border-radius: 20px;
+      border: none;
+      background-color: var(--clear);
+      color: #fff;
+      margin-right: 1rem;
+
+}
+
+
+
+
+#play-button {
+      width: 10px;
+}
+
+
+.hero-right img {
+      height: 400px;
+      margin-right: 30px;
+
+}
+
+
+/*==== Feture section =====*/
+.feture {
+      margin: 0 10%;
+      text-align: center;
+
+}
+
+.feture>h2 {
+      color: var(--secondary);
+      padding: 10px;
+}
+
+.feture>h1 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+}
+
+.icon {
+      width: 5rem;
+      align-items: center;
+      margin-left: 42px;
+      margin-top: 20px;
+
+}
+
+.big-img {
+      width: 435px;
+      height: 402px;
+      margin-top: 150px;
+      background-color: rgb(227, 227, 255);
+      margin-right: 20px;
+
+}
+
+img:hover {
+
+      opacity: .5;
+}
+
+.detail-intro {
+      background-color: rgb(227, 227, 255) b
+}
+
+.intro2 {
+      padding: 20px;
+}
+
+.fection {
+      background-color: cadetblue;
+      padding: 10px;
+}
+
+.fcontainer {
+      margin: 0 30%;
+      text-align: center;
+      color: #fff;
+}
