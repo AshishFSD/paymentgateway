@@ -7,7 +7,7 @@
 
 body {
       font-family: font-family: 'Noto Serif', serif;
-      ;
+
 }
 
 :root {
@@ -16,9 +16,15 @@ body {
       --clear: rgb(72, 183, 116);
 }
 
-.main-nav,
+.main-nav {
+      padding: 0, 30px;
+      background-color: #caf7e3;
+      border-bottom: 1px solid #caf7e3;
+}
+
 .hero {
-      background-color: var(--primery)
+      background-color: var(--primery);
+      padding: 100px;
 }
 
 .container {
@@ -31,20 +37,25 @@ body {
 /*  Logo css */
 .brandlogo h1 {
       color: var(--secondary);
-      margin-top: 35px;
+      padding: 10px;
 }
 
 .brandlogo h1 span {
       color: var(--clear);
 }
 
+.brandlogo>a {
+      text-decoration: none;
+      margin: 50% auto;
+}
 
 /*==== Navigation CSS ====*/
 .navlink {
-      margin-top: 35px;
+
       font-weight: 300px;
       font-size: 20px;
 }
+
 
 .navlink a {
       text-decoration: none;
@@ -64,16 +75,15 @@ a:hover {
 /*=== Hero section ====*/
 .hero {
 
-      margin-top: 8%;
+
       background-image: linear-gradient(to top, #fff, rgb(237, 252, 247))
 }
 
 .hero-left {
       margin-top: 30px;
-      margin-left: 20px;
-      padding: 10px;
+
       height: 400px;
-      justify-content: center;
+
 }
 
 h1 .hpayment {
@@ -147,6 +157,13 @@ h1 .solution {
 
 
 /*==== Feture section =====*/
+
+.Category {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      padding: 100px;
+}
+
 .feture {
       margin: 0 10%;
       text-align: center;
@@ -186,7 +203,8 @@ img:hover {
 }
 
 .detail-intro {
-      background-color: rgb(227, 227, 255) b
+
+      margin: 10px auto;
 }
 
 .intro2 {
