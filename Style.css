@@ -10,6 +10,7 @@
 
 body {
       font-family: 'Libre Baskerville', serif;
+    
 
 }
 
@@ -40,7 +41,7 @@ p{
       display: flex;
       justify-content: space-between;
       align-items: center;
-      width: 70vw;
+      max-width: 956px;
 }
 
 /*  Logo css */
@@ -202,3 +203,39 @@ h1 .solution {
       text-align: center;
       color: #fff;
 }
+
+
+/* Mobile csss */
+
+@media screen and (max-width: 600px) {
+
+/* Navigation bar */
+
+
+.navlink{
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      border: 1px solid silver ;
+      display: none;
+}
+     
+     .hero .container{
+
+      width: 100%;
+     }      
+     
+.container{
+
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+}
+
+.hero-right{
+      display: none;
+}
+
+
+
+    }
